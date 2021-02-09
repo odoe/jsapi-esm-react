@@ -38,13 +38,13 @@ export async function showLocation(item) {
 		attributes,
 		geometry: {
 			type: 'point',
-			...location,
+			...location
 		},
 		symbol,
 		popupTemplate: {
 			title: '{PlaceName}',
-			content: '{Place_addr}',
-		},
+			content: '{Place_addr}'
+		}
 	});
 	view.graphics.add(graphic);
 	view.extent = extent;
