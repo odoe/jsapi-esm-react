@@ -38,7 +38,6 @@ const AppContextProvider = (props) => {
 
 	useEffect(() => {
 		const loadMap = async () => {
-			// TODO
 			const { initialize, showLocation } = await import('./data/webmap');
 			const { container, shop } = state;
 			await initialize(container);

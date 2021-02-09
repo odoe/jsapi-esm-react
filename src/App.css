@@ -3,6 +3,10 @@
 }
 
 .mapDiv {
-  height: 680px;
+  height: 90%;
   width: 100%;
+}
+
+.app-container {
+  height: 100%;
 }
